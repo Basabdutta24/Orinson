@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="im/DI.png" type="image/x-icon">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Choco | Restaurant</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+	<!--swiper css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="s.css">
+</head>
+<body bgcolor="#FFFFCC">
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <h1 class="logo">PASTEL CHOCO</h1>
+            <nav>
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+		    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+		    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+	    <nav>
+               <!-- Search Bar -->
+               <input type="text" id="searchBar" placeholder="Search..." onkeyup="filterEvents()">
+&nbsp;&nbsp;&nbsp;&nbsp;
+              <!--Take Away and Dine-InButton-->
+	<a href="#"><button>Take Away</button></a>&nbsp;&nbsp;<a href="#"><button>Dine-In</button></a>
+	 </nav>
+
+    </header>
+
+ <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 style="font-family:'Emilys Candy', cursive;">Try Some Exotic Dishes & Make Good Memories</h2>
+	   <br/>	
+            <p>Enjoy a healthy life by eating healthy foods that have extraordinary flavours that make your life healthier for today and in future.Good Food Good  Life!</p>
+	    <br/>	
+            <div id="blink"><a href="#menu" class="btn">Order Now</a></div>
+        </div>
+    </section>
+
+<!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="item">
+                    <h3>Grilled Salmon</h3>
+                    <p>A perfectly grilled salmon served with seasonal vegetables.</p>
+                    <span>$110</span>
+                </div>
+		<div class="item">
+                    <h3>Alfredo Pasta |White Sauce</h3>
+                    <p>Cheesy,Creamy Thai Mongolian Magic with White ground.</p>
+                    <span>$30.99</span>
+                </div>
+		<div class="item">
+                    <h3>Boma Custard Donut</h3>
+                    <p>Bun with beauty toppings.</p>
+                    <span>$5.99</span>
+                </div>
+		<div class="item">
+                    <h3>Indian Buffet</h3>
+                    <p>Various special Indian Thali with roasted Chicken Wings.</p>
+                    <span>$200.99</span>
+                </div>
+		<div class="item">
+                    <h3>American Chopsuy</h3>
+                    <p>Fried chow with spicy sauce and omlette .</p>
+                    <span>$5.99</span>
+                </div>
+
+                <div class="item">
+                    <h3>Steak & Fries</h3>
+                    <p>Juicy sirloin steak served with golden crispy fries.</p>
+                    <span>$19.99</span>
+                </div>
+		<div class="item">
+                    <h3>Thukpa</h3>
+                    <p>Classic Tibetian Noodles Soup.</p>
+                    <span>$19.99</span>
+                </div>
+
+                <div class="item">
+                    <h3>Classic Cheesecake</h3>
+                    <p>Rich, creamy cheesecake with a graham cracker crust.</p>
+                    <span>$7.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Gallery section starts  -->
+    <section class="gallery" id="gallery">
+      <h2 class="heading">Our Gallery</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="im/Bg.jpg" alt="" />
+          <h3 class="title">Best Tastes</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+       <div class="box">
+          <img src="im/D1.jpeg" alt="" />
+          <h3 class="title">Best Place</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+         
+      <div class="box">
+          <img src="im/DS7.jpeg" alt="" />
+          <h3 class="title">Best Flavour</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+       <div class="box">
+          <img src="im/DS8.jpeg" alt="" />
+          <h3 class="title">Crunchy</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+       <div class="box">
+          <img src="im/D3.jpg" alt="" />
+          <h3 class="title">Dinning</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+         <div class="box">
+          <img src="im/D4.jpeg" alt="" />
+          <h3 class="title">Delicious</h3>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+        </div>
+
+        </div>
+    </section>
+
+<!--Offer Section-->
+    <section id="offers" class="offers">
+       <div class="container">
+        <h3 class="heading">O<span>ffers</span></h3>
+	<marquee behavior="alternate" scrollamount="15s"> Get 20% discount on <b>First Order</b></marquee>
+         <ul type="square">
+	 <li><p>Exciting Offer : Buy 3 Donut Get 1 Chicken Wings Free till 10.09.24</p></li>
+	 <li><p>Order above $400 get $190 Free for <i>Dine-In</i></p></li>
+         <ul>
+      </div>
+    </section>
+
+<!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact Us</h2>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="inputBox">
+          <input type="tel" placeholder="Number" />
+          <input type="text" placeholder="Subject" />
+        </div>
+        <textarea
+          name=""
+          placeholder="Message"
+          id=""
+          cols="30"
+          rows="5"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn"/>
+      </form>
+    </section>
+
+    
+<!-- About section -->
+   <section class="foot" id="about">
+        <div class="box-container">
+	        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Gallery </a>
+	          <a href="#"> <i class="fas fa-arrow-right"></i> Menu </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> About </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Contact </a>
+          </div>
+
+          <div class="box">
+            <h3>Contact Info</h3>
+            <p><a href="#"><i class="fas fa-map-marker-alt"></i>Address: 123 Foodie Street, Flavor Town</a></p>
+                   <p><a href="#"><i class="fas fa-phone"></i>(123) 456-7890</a></p>
+            <p><a href="#"><i class="fas fa-envelope"></i> pastel24@gmail.com</a></p>
+          </div>
+
+	        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+          </div>
+        </div>  
+   
+     </section>
+
+    <footer>
+        <p>&copy; 2024 <span>Pasco</span> | All Rights Reserved.</p>
+    </footer>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
+
